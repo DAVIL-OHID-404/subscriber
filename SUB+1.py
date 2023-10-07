@@ -233,7 +233,7 @@ def xxr():
     Mimid = []
     print("")
     for bilal in range(passx):
-        pww = input(f"\033[1;91m[\033[1;97m•\033[1;91m]\033[1;92m Enter Password {@@1122} : ")
+        pww = input(f"\033[1;91m[\033[1;97m•\033[1;91m]\033[1;92m Enter Password {bilal+1} : ")
         Mimid.append(pww)
     with ThreadPool(max_workers=50) as manshera:
         clear()
